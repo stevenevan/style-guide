@@ -1,6 +1,5 @@
 # The Style Guide
 
-
 ## Introduction
 
 This repository is the home of Vercel's style guide, which includes configs for
@@ -195,9 +194,8 @@ This style guide provides multiple TypeScript configs. These configs correlate t
 
 | Node.js Version | TypeScript Config                       |
 | --------------- | --------------------------------------- |
-| v16             | `@vercel/style-guide/typescript/node16` |
-| v18             | `@vercel/style-guide/typescript/node18` |
 | v20             | `@vercel/style-guide/typescript/node20` |
+| v22             | `@vercel/style-guide/typescript/node22` |
 
 To use the shared TypeScript config, set the following in `tsconfig.json`.
 
