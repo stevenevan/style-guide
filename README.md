@@ -1,7 +1,5 @@
-> [!CAUTION]
-> This repository has been archived and sunset. The existing configurations will remain public for reference.
+# The Style Guide
 
-# Vercel Style Guide
 
 ## Introduction
 
