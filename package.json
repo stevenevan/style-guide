@@ -16,7 +16,8 @@
     "./eslint/flat": "./eslint/flat/index.js",
     "./prettier": "./prettier/index.js",
     "./typescript": "./typescript/tsconfig.base.json",
-    "./typescript/node20": "./typescript/tsconfig.node20.json"
+    "./typescript/node20": "./typescript/tsconfig.node20.json",
+    "./typescript/node22": "./typescript/tsconfig.node22.json"
   },
   "main": "index.js",
   "files": [
