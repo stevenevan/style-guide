@@ -16,7 +16,6 @@
     "./eslint/flat": "./eslint/flat/index.js",
     "./prettier": "./prettier/index.js",
     "./typescript": "./typescript/tsconfig.base.json",
-    "./typescript/node16": "./typescript/tsconfig.node16.json",
     "./typescript/node18": "./typescript/tsconfig.node18.json",
     "./typescript/node20": "./typescript/tsconfig.node20.json"
   },
@@ -76,7 +75,6 @@
   },
   "peerDependencies": {
     "@next/eslint-plugin-next": ">=12.3.0 <16",
-    "@types/eslint__js": "^8.42.3",
     "eslint": ">=8.57.0 <10",
     "prettier": ">=3.0.0 <4",
     "typescript": ">=4.8.0 <6"
@@ -95,9 +93,9 @@
       "optional": true
     }
   },
-  "packageManager": "pnpm@9.15.4",
   "engines": {
-    "node": ">=18.18"
+    "node": ">=20",
+    "pnpm": ">=9"
   },
   "publishConfig": {
     "access": "public"
