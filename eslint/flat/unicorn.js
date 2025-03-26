@@ -1,4 +1,4 @@
-import eslintPluginUnicorn from 'eslint-plugin-unicorn';
+const eslintPluginUnicorn = require('eslint-plugin-unicorn');
 
 /** @type {import('eslint').Linter.Config} */
 module.exports = {
@@ -6,7 +6,6 @@ module.exports = {
     unicorn: eslintPluginUnicorn,
   },
   rules: {
-    ...eslintPluginUnicorn.configs.recommended,
     ...require('../rules/unicorn').rules,
   },
 };
